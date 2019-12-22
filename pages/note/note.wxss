@@ -1,0 +1,42 @@
+.title{
+   color:rgb(67, 88, 3);
+
+    font-size: 24px;
+    text-align: center;
+    border-style :ridge;
+   
+  margin-top: 10rpx;
+}
+.input {
+  background: #e5e5e5;
+  margin: 0px auto 12px;
+
+  height: 500rpx;
+}
+.textarea-bg {
+    background: #e5e5e5;
+  padding:30rpx;
+  width:700rpx;
+}
+.word{
+  position: absolute;
+  bottom:30rpx;
+  right:30rpx;
+}
+.text {
+  color: #888;
+  font-family:PingFangSC-Regular;
+  font-size:12px;
+  text-align: center;
+  margin-top: 50rpx;
+}
+.but{
+  margin-top: 20rpx;
+  width: 50%;
+}
+.picker{
+  background: #FFFFFF;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}

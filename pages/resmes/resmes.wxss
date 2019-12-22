@@ -1,0 +1,35 @@
+.title{
+   color:rgb(67, 88, 3);
+     margin-bottom: 50rpx;
+    font-size: 24px;
+    text-align: center;
+    border-style :ridge;
+   
+  margin-top: 10rpx;
+}
+.invite {
+    /* display: none; */
+  width: 600rpx;
+  font-size: 50rpx;
+  height: 90rpx;
+  line-height: 50rpx;
+  padding-left: 20rpx;
+  position: relative;
+  margin: 20rpx auto 0 35rpx;
+  background-color: rgba(195, 255, 14, 0.397);
+  border: 1px solid rgb(181, 244, 255);
+  border-radius: 5px;
+}
+.invite:after {
+  content: '';
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  top: -11rpx;
+  left: 20rpx;
+  transform: rotate(45deg);
+  background-color: rgba(195, 255, 14, 0.397);
+  border: 1px rgb(181, 244, 255);
+  border-style: solid none none solid ;
+}
+

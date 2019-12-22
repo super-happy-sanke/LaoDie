@@ -1,0 +1,4 @@
+<view class="title">实时位置信息</view>
+<map class="map" latitude="{{latitude2}}" longitude="{{longitude2}}" markers="{{markers}}"></map>
+<view><text>最新一次位置信息产生于：</text>{{time}}</view>
+<view class="text">提示：当前显示的是实时位置，受硬件设备稳定性影响，位置更新可能延迟，数据仅供参考</view>

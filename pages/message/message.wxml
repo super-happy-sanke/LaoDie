@@ -1,0 +1,10 @@
+<view class="title">发送即时消息</view>
+
+<textarea class="textarea-bg font_s33 font_c31" 
+    id="information" maxlength='20' placeholder="请在此处输入备忘录内容" name="information" value="{{information}}"bindinput="getDataBindTap">
+    <view class='word' id="counter">{{lastArea}}/20</view>
+    </textarea>
+<button class="but" bindtap="sendMsg">点击发送🚀</button>
+<view class="text">提示：点击发送按钮后，您输入的内容将被实时显示在手表屏幕上</view>
+<canvas canvas-id="myCanvas"></canvas>
+<text class='text'>消息确认区👆</text>

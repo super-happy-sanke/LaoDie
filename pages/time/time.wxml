@@ -1,0 +1,10 @@
+<view class='title'>设置吃药时间</view>
+<view class="section">
+  <picker mode="time" value="{{time}}" start="{{time1}}" end="{{time1}}" bindchange="bindTimeChange">
+    <view class="picker">
+      时间设置: {{time}}
+    </view>
+  </picker>
+</view>
+<button class="but" bindtap="post">点击设置吃药时间</button>
+<view class="text">提示：在设置的时间手表将提醒老人吃药</view>

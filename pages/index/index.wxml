@@ -1,0 +1,22 @@
+<view class='bg'>
+<view class='redX'>欢迎使用微信端手表控制程序</view>
+
+
+<view class="box">
+<button class='geshi1' bindtap="weizhi" style="opacity:0"   >
+</button>
+<button class='geshi1' bindtap="validate" style="opacity:0"></button>
+</view>
+<view class="box">
+<button class='geshi1' bindtap="xinxi" style="opacity:0"></button>
+<button class='geshi1' bindtap="resmes" style="opacity:0"></button>
+</view>
+<view class="box">
+<button class='geshi1' bindtap="note" style="opacity:0"></button>
+<button class='geshi1' bindtap="time" style="opacity:0"></button>
+</view>
+<view class="box">
+<button class='geshi1' bindtap="wait" style="opacity:0"></button>
+<button class='geshi1' bindtap="wait" style="opacity:0"></button>
+</view>
+</view>

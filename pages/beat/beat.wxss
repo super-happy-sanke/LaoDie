@@ -1,0 +1,31 @@
+.title{
+   color:rgb(67, 88, 3);
+     margin-bottom: 50rpx;
+    font-size: 24px;
+    text-align: center;
+    border-style :ridge;
+   
+  margin-top: 10rpx;
+}
+.num{
+   margin-top: 100rpx;
+   font-size: 69px;
+   text-align: center;
+    color:black;
+   
+
+}
+.but{
+  margin-top: 100rpx;
+}
+.ima{
+  align-items: center;
+  text-align: center;
+}
+.text {
+  color: #888;
+  font-family:PingFangSC-Regular;
+  font-size:12px;
+  text-align: center;
+  margin-top: 50rpx;
+}

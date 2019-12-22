@@ -1,0 +1,7 @@
+<view class="title">实时心率数据</view>
+<view class="ima">
+<image src="timg.jpeg" mode="aspectFill" ></image>
+</view>
+<view class="num">{{num}}</view>
+
+<view class="text">提示：当前显示的是实时心率，受硬件设备稳定性影响，数据更新可能延迟，仅供参考</view>

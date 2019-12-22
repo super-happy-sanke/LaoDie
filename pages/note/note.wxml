@@ -1,0 +1,24 @@
+<view class="title">添加备忘录</view>
+<textarea class="textarea-bg font_s33 font_c31" 
+    id="information" maxlength='25' placeholder="请在此处输入备忘录内容" name="information" value="{{information}}"bindinput="getDataBindTap">
+    <view class='word' id="counter">{{lastArea}}/20</view>
+    </textarea>
+
+<view class="section">
+  <picker mode="date" value="{{date}}" start="{{date1}}" end="{{date1}}}" bindchange="bindDateChange">
+    <view class="picker">
+      日期设置: {{date}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker mode="time" value="{{time}}" start="{{time1}}" end="{{time1}}" bindchange="bindTimeChange">
+    <view class="picker">
+      时间设置: {{time}}
+    </view>
+  </picker>
+</view>
+<button class="but" bindtap="sendfrg">点击设置备忘录</button>
+<view class="text">提示：点击按钮后，将在手表上创建一个备忘录，您可以在输入框下方设置备忘录时间，</view>
+<canvas canvas-id="myCanvas"></canvas>
+<text class='text'>消息确认区👆</text>

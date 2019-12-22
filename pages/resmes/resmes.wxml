@@ -1,0 +1,9 @@
+<!--pages/resmes/resmes.js.wxml-->
+<view class='title'>接收消息</view>
+<block wx:for="{{apple}}">
+<view>{{item.time}}</view>
+<view class='invite' >
+{{item.msg}}
+      </view></block>
+<view>{{hhh}}</view>
+
